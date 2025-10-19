@@ -1,4 +1,4 @@
-🎯 Habit Tracker API
+🎯 Habit Tracker API\n
 Simple and efficient REST API for habit tracking built with FastAPI and SQLite.
 
 🚀 Features
