@@ -1,10 +1,12 @@
 from fastapi import FastAPI
-from routers import router as HabitRouter
+from habitRouters import router as HabitRouter
+from userRouters import router as UserRouter
 from admin import router as AdminRouter
 import uvicorn
 
 app = FastAPI()
 app.include_router(HabitRouter)
+app.include_router(UserRouter)
 app.include_router(AdminRouter)
 
 if __name__ == "__main__":
